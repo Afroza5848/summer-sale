@@ -63,6 +63,7 @@ document.getElementById('purchase').addEventListener('click', function(){
         document.getElementById('totalPrice').innerText = "";
         document.getElementById('discountPrice').innerText = "";
         document.getElementById('total').innerText = "";
+        document.getElementById('title-container').innerText = "";
     }
     else{
         alert('Please Purchase Product..')
